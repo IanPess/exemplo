@@ -1,0 +1,111 @@
+/* Configuração básica do corpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a8e6cf, #dcedc1); /* Gradiente verde pastel para amarelo claro */
+    color: #333; /* Cor do texto escuro para contraste */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box; /* Inclui o padding e borda no tamanho total dos elementos */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: rgba(255, 255, 255, 0.9); /* Branco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px; /* Margem superior para separar do topo */
+}
+
+/* Título do cabeçalho */
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #004d40; /* Verde escuro */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    position: relative; /* Necessário para o posicionamento das imagens */
+}
+
+/* Estilo das seções */
+.block {
+    background-color: rgba(255, 255, 255, 0.9); /* Branco semitransparente */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0; /* Espaçamento entre seções */
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box; /* Inclui o padding no tamanho total da seção */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título das seções */
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #004d40; /* Verde escuro */
+    text-align: center; /* Centraliza o título */
+    font-weight: bold;
+}
+
+/* Estilo dos botões */
+.buttons {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os botões se movam para a linha seguinte */
+    gap: 20px;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+}
+
+.btn {
+    background-color: #004d40; /* Verde escuro */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center; /* Centraliza o texto dentro do botão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn:hover {
+    background-color: #00695c; /* Verde mais claro ao passar o mouse */
+    transform: translateY(-3px);
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: rgba(255, 255, 255, 0.9); /* Branco semitransparente */
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ajuste a posição para evitar sobreposição */
+    box-sizing: border-box; /* Inclui o padding no tamanho total do rodapé */
+    margin-top: auto; /* Move o rodapé para a parte inferior da página */
+}
