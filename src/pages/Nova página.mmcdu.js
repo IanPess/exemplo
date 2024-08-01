@@ -1,0 +1,62 @@
+// Guia de API: https://www.wix.com/velo/reference/api-overview/introduction
+
+$w.onReady(function () {
+
+	/<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Seja bem-vindo!!!</h1>
+    </header>
+    <main>
+        <section class="block cadastro">
+            <h2>Cadastro</h2>
+            <div class="buttons">
+                <button class="btn">
+                    <a href="CadastroCidade.php">Cadastro Cidade</a>
+                </button>
+                <button class="btn">
+                    <a href="cadastroCliente.php">Cadastro Pessoa</a>
+                </button>
+                <button class="btn">
+                    <a href="cadastroAnimal.php">Cadastro Animal</a>
+                </button>
+            </div>
+        </section>
+        <section class="block listagem">
+            <h2>Listagem</h2>
+            <div class="buttons">
+                <button class="btn">
+                    <a href="listarCidade.php">Listar Cidades</a>
+                </button>
+                <button class="btn">
+                    <a href="listarCliente.php">Listar Cliente</a>
+                </button>
+                <button class="btn">
+                    <a href="listarAnimal.php">Listar Animais</a>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Projeto de TCC. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+/ Escreva seu código JavaScript aqui usando o API de framework do Velo
+
+	// Exiba hello world:
+	// console.log("Hello world!");
+
+	// Chame funções em elementos da página, por exemplo:
+	// $w("#button1").label = "Clique aqui!";
+
+	// Clique em "Executar" ou visualize seu site para executar seu código
+
+});
